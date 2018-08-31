@@ -1,0 +1,9 @@
+gunicorn
+Flask
+line-bot-sdk
+requests
+BeautifulSoup4
+html5lib
+feedparser
+pymongo
+pandas
