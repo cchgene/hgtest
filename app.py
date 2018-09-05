@@ -144,13 +144,8 @@ def handle_message(event):
     # 傳送影片
     elif event.message.text == 'HG影片':
         message = VideoSendMessage(
-            original_content_url='https://video-tpe1-1.xx.fbcdn.net/v/t42.9040-2/40079821_242698919723214_7629329173013594112_n.mp4?_nc_cat=0&efg=eyJ2ZW5jb2RlX3RhZyI6InN2ZV9zZCJ9&oh=605fd4040e31944bae323753de232090&oe=5B8518E5',
-            preview_image_url='https://i.imgur.com/m1sFvq3.jpg'
-        )
-    elif event.message.text == 'HG影片2':
-        message = VideoSendMessage(
-            original_content_url='https://videos2.sendvid.com/84/e9/v1tdeh6d.mp4?validfrom=1535434749&validto=1535441949&rate=200k&burst=1000k&hash=%2B9pqdo4Ev9T%2BH9qfeEqvAa3tprQ%3D',
-            preview_image_url='https://i.imgur.com/m1sFvq3.jpg'
+            original_content_url='https://i.imgur.com/g2aQYSZ.mp4',
+            preview_image_url='https://i.imgur.com/g2aQYSZ.mp4'
         )
     # 傳送位置
     elif event.message.text == '公司位置':
